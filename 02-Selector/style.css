@@ -1,0 +1,48 @@
+/* universal selector */
+* {
+    background-color: azure;
+}
+
+body {
+    font-size: 20px;
+
+}
+
+main {
+    font-family: monospace;
+}
+
+/* group selector */
+h1,
+h2 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: purple;
+}
+
+/* p span {
+    background-color: gold;
+    text-transform: uppercase;
+} */
+.highlight {
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+
+/* class selector (.)*/
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* id selector (#) - not a good pratice using id coz it only be one in any web page*/
+#italic {
+    color: aqua;
+    font-style: italic;
+}
