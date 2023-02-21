@@ -1,0 +1,13 @@
+body {
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 1.5;
+    background-color: aqua;
+    color: darkblue;
+}
+
+/* it will override coz cascading down line work 1st */
+p {
+    color: rgba(0, 0, 0, 0.500);
+    /* a-stands for alpha(opicity of color) */
+}

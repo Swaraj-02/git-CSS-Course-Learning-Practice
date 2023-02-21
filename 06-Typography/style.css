@@ -1,0 +1,22 @@
+/* Typography is the way that text is arrenged and presented */
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    color: aqua;
+}
+
+input,
+button {
+    font: inherit;
+}
+
+p {
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+
+    /* --default is none */
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
