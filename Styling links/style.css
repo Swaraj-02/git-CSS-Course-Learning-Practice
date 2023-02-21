@@ -28,7 +28,33 @@ ul {
     list-style-type: square;
     /* text-align: center; */
     list-style-position: outside;
+    /* text-align: center; */
     color: blue;
     /* list-style-image: url(/);use for add image */
     /* we can use add png on unorderlist lis-style: square url(/) add png insted os square */
+    line-height: 1.5rem;
+    /* list-style-image: url(HTML5_logo.png); */
+    /* list-style-image: url("../03-Colors/image/checkmark.png "); */
+
+}
+
+/* pshudo class for change perticular list in list item :nth-child(odd/number) etc. */
+ol li:nth-child(2) {
+    color: red;
+}
+
+ul ::marker {
+    color: aqua;
+    font-size: 1.4em;
+    content: "only> ";
+}
+
+p {
+    display: none;
+    background-color: aqua;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
 }
