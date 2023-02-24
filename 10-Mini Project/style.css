@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: azure; */
+    box-sizing: border-box;
+
+}
+
+header {
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 2em;
+    line-height: 3em;
+
+}
+
+.menu {
+    font-weight: bold;
+    background-color: #f2a706;
+
+    border-radius: 2em;
+
+    font-size: 30px;
+    font-family: arial;
+
+}
+
+
+div a {
+    font-size: 20px;
+    font-style: normal;
+
+
+    display: block;
+    text-decoration: none;
+
+    border: 1px solid black;
+    border-radius: 2em;
+
+    /* background-color: red; */
+
+}
+
+a:link {
+    color: black;
+    background-color: azure;
+
+}
+
+/* a:visited {} */
+
+a:hover {
+    background-color: gray;
+
+}
+
+/* a:active {} */
+
+
+
+footer {
+    text-align: center;
+
+}
