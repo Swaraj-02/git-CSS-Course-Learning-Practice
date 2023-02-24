@@ -5,10 +5,14 @@
 
 body {
     font-size: 20px;
+    background-image: url("../03-Colors/image/HTML5_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
 main {
+    background-image: url("../03-Colors/image/checkmark.png");
     font-family: monospace;
 }
 
