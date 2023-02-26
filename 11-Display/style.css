@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+p {
+    color: aqua;
+    display: inline-block;
+    width: 50%;
+}
+
+img {
+    width: 100px;
+    display: block;
+    /* display: none; */
+}
+
+ul {
+    text-align: end;
+    padding: 30px;
+    background-color: aqua;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+li {
+    display: inline;
+}
+
+li:link {
+    color: black;
+}
+
+li:visited {
+    color: green;
+}
+
+li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+li:active {
+    color: blueviolet;
+}
