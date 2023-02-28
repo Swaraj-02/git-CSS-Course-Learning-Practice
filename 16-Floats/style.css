@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    border: 2px solid black;
+
+}
+
+.p1 {
+    clear: right;
+}
+
+.img1 {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.img2 {
+    height: 100px;
+    width: 100px;
+    float: right;
+    float: ;
+}
+
+.p2 {
+    clear: left;
+}
+
+/* main {
+    overflow: auto;
+} */
+
+.img3 {
+    float: right;
+}
+
+.img4 {
+    float: left;
+}

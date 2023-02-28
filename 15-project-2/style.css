@@ -1,0 +1,39 @@
+body {
+    height: 200vh;
+}
+
+/* .box {
+    height: 400px;
+    width: 300px;
+    background-color: bisque;
+
+} */
+
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+}
+
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid rgb(12, 12, 63);
+    position: relative;
+    right: 0;
+    overflow: scroll;
+}
+
+.blue {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid rgb(248, 221, 45);
+    position: relative;
+    overflow: auto;
+}

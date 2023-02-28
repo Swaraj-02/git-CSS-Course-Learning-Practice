@@ -1,0 +1,45 @@
+/* p {
+     color: aliceblue 
+} */
+
+
+.visible {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: aqua;
+    /* overflow: visible; */
+    position: relative;
+    left: 0;
+}
+
+.hidden {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px solid red;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+
+.scroll {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    border: 2px solid red;
+    position: relative;
+    bottom: 0;
+    overflow: scroll;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+}
+
+.auto {
+    height: 200px;
+    width: 200px;
+    background-color: darkmagenta;
+    border: 2px solid red;
+    position: relative;
+    overflow: scroll;
+}
