@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* parent container  */
+
+.container {
+    border: 2px solid red;
+    /* background-color: aqua; */
+    height: 400px;
+    display: flex;
+
+    /* flex-direction: row; default 
+    flex-direction: column; 
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* gap: 10px; shorthand for row column  */
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    gap: 10px;
+
+    /* shrthand properties for flrx wrap and direction  */
+    /* flex-flow: wrap flex-direction;  */
+    flex-flow: row;
+
+    /* justify-content: center;  boxes are on center
+    justify-content: flex-start; -going to start
+    justify-content: flex-end -going to end ;
+    justify-content: space-around -space are before and after box;
+    justify-content: space-between -space are between only the boxes;
+     justify-content: space-evenly -all space are equal; */
+
+
+    /* align-items: stretch --it is the default behavior of it ; */
+    align-items: center;
+    /* align-items: flex-start; 
+    align-items: flex-end;
+     align-items: baseline; */
+
+    /* align-content: flex-start; 
+    align-content: flex-end;
+    align-content: center;
+     align-content: space-around and /space-between; */
+    align-content: space-evenly;
+
+    /* imp --both the justify-content and align-items properties to center, and the flex item will be perfectly centered:
+
+Example */
+
+}
+
+/* child container  */
+
+.box {
+    border: 2px solid green;
+    /* padding: 4px 0; */
+    /* margin: 10px; */
+    width: 100px;
+
+}
+
+/* child properties of css  */
+/* 1-order
+    2-flex-grow
+    3-flex-shrink
+    4-flex-basis
+    5-flex(shorthand properties of flex: grow|shrink|basis;)
+    6-align-self */
+
+/* 1-order  */
+
+#box1 {
+    order: 1;
+    /* the order value must be a number, default value is 0  */
+
+    /* flex-grow: 1; */
+}
+
+#box3 {
+    /* The flex-basis property specifies the initial length of a flex item(take some width from value)  */
+    flex-basis: 200px;
+}
+
+#box4 {
+    /* flex-grow: 2; */
+    /* the order value must be a number, default value is 0  */
+}
+
+#box7 {
+    flex-shrink: 2;
+    /* the order value must be a number, default value is 1  */
+}
+
+/* flex is the short hand properties */
+
+#box8 {
+    /* The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.  */
+
+    flex: 0 0 300px;
+}
+
+/* align-self  */
+
+#box6 {
+    align-self: flex-start;
+
+    /* use for edit perticullar item  */
+}

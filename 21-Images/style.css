@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    border: 2px solid red;
+    width: 25%;
+    height: 10vh;
+}
+
+.section {
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../21-Images/img/Service-1.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+}
