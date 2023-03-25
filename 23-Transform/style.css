@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(97, 226, 71, 0.696);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(225, 28, 28, 0.91);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transform: scale();  */
+
+    /* transform: scaley(); y-axis vertically */
+    /* transform: scalex(3);  x-axis horizontally  */
+    /* transform: scale(2 , 3); short hand for x and y  */
+
+    /* transform: skew(); */
+
+    /* transform: skewx(20deg); skew from x axis  */
+    /* transform: skewy(30deg); skew from y axis  */
+    /* transform: skew(32deg , 20deg); skew from both side  */
+
+    /* transform: translate(20px , 30px); margin from container to 20px and 30px  */
+    /* The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis). */
+
+    /* transform: rotate(10deg); */
+    /* The rotate() method rotates an element clockwise or counter-clockwise according to a given degree.  */
+
+    /* transform: rotateY(20deg); */
+    /* transform: rotateX(20deg); */
+    /* transform: rotateZ(20deg); */
+
+}
+
+.box:hover {
+    transform: skew(20deg);
+    /* transform: translate(20px); */
+    /* transform: scaleX(2); */
+    background-color: blueviolet;
+
+}

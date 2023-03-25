@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(105, 59, 148, 0.614);
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    /* margin: auto;
+    margin-top: 15%; */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #5f9ea0;
+    border-radius: 50%;
+    animation-name: orbit;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes orbit {
+    form {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    background-color: aliceblue;
+
+    animation-name: move;
+    /*define mandotory to run animation */
+    animation-duration: 5s;
+    /*how many time animation will run */
+    animation-timing-function: linear;
+    /*it is also like transition (ease,ease-in,ease-out etc*/
+    animation-iteration-count: infinite;
+    /*it is how many time will animation running */
+    /* animation-delay: 0.1s; */
+    /*after how many time dealy animation will run */
+    animation-direction: normal;
+    /* animation-fill-mode: forwards; */
+
+    /* animation-name: orbit; */
+}
+
+
+/* @keyframes move {
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(0, 200px)
+    }
+
+    50% {
+        transform: translate(200px, 200px);
+    }
+
+    75% {
+        transform: translate(200px, 0);
+    }
+
+} */

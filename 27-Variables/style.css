@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+
+    --my-var: red;
+
+}
+
+/* global variable  */
+:root {
+    --primary-font-family: Verdana;
+    --primary-text-color: rgb(21, 207, 46);
+    --paragraph-color: #db7b7b;
+    --default-padding: 20px;
+}
+
+
+h1 {
+
+    font-family: var(--primary-font-family);
+    /* color: var(--primary-text-color); */
+
+    margin-bottom: 20px;
+    font-size: 3rem;
+
+    --my-var: red;
+    color: var(--my-var);
+    /* color: var(--my-var, green); */
+    /*you can use fallback inserting coma */
+}
+
+.box {
+
+    font-family: var(--primary-font-family);
+
+    border: 2px solid white;
+    border: none;
+    width: 50%;
+    border-radius: 20px;
+    padding: var(--default-padding);
+
+    background-color: var(--my-var);
+    --my-var: yellow;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 15px;
+    color: var(--primary-text-color);
+
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 15px;
+    /* color: var(--my-var); */
+    color: var(--paragraph-color);
+}
+
+@media screen and (max-width:700px) {
+    .box {
+        --my-var: pink;
+    }
+}

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* media qurey practice on flrx practice project  */
+
+:root {
+    --margin-top: 5px;
+}
+
+.box {
+    border: 2px solid;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 250px;
+    background-color: azure;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.image {
+    margin-top: var(--margin-top);
+}
+
+img {
+    width: 230px;
+    margin-left: var(--margin-top);
+    border-radius: 20px;
+
+}
+
+.paragraph {
+    line-height: 1.3rem;
+    /* padding-left: 10px; */
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        background-color: red;
+    }
+
+    .box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    img {
+        width: 100px;
+        border-radius: 50%;
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: rgb(0, 34, 255);
+    }
+}
